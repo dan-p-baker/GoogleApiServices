@@ -1,0 +1,6 @@
+namespace GoogleApiApplication
+{
+    class GoogleMapsService
+    {
+    }
+}
