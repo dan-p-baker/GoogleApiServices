@@ -8,3 +8,13 @@ C:\dan-p-baker.git\GoogleApiApplication\GoogleApiApplication\obj\Debug\GoogleApi
 C:\dan-p-baker.git\GoogleApiApplication\GoogleApiApplication\obj\Debug\GoogleApiApplication.pdb
 C:\dan-p-baker.git\GoogleApiApplication\GoogleApiApplication\bin\Debug\SimpleInjector.dll
 C:\dan-p-baker.git\GoogleApiApplication\GoogleApiApplication\bin\Debug\SimpleInjector.xml
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\GoogleApiApplication.exe.config
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\obj\Debug\GoogleApiApplication.exe
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\obj\Debug\GoogleApiApplication.pdb
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\GoogleApiApplication.exe
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\GoogleApiApplication.pdb
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\Newtonsoft.Json.dll
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\SimpleInjector.dll
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\Newtonsoft.Json.xml
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\bin\Debug\SimpleInjector.xml
+C:\dan-p-baker.git\GoogleApiServices\GoogleApiApplication\obj\Debug\GoogleApiApplication.csprojResolveAssemblyReference.cache

@@ -11,6 +11,7 @@ namespace GoogleApiApplication
             Container = new Container();
 
             Container.Register<IGooglePlacesServiceV1, GooglePlacesService>(Lifestyle.Singleton);
+            Container.Register<IGoogleGeocodingServiceV1, GoogleGeocodingService>(Lifestyle.Singleton);
         }
 
 

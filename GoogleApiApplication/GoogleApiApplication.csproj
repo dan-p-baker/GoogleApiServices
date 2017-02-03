@@ -51,18 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressComponent.cs" />
     <Compile Include="Bootstrap.cs" />
+    <Compile Include="Geometry.cs" />
     <Compile Include="GoogleCredentials.cs" />
-    <Compile Include="GoogleMapsResultModel.cs" />
-    <Compile Include="GoogleMapsService.cs" />
-    <Compile Include="GooglePlacesResultModel.cs" />
-    <Compile Include="GooglePlacesResultModelV2.cs" />
-    <Compile Include="GooglePlacesResultsListModel.cs" />
+    <Compile Include="GoogleGeocodeResult.cs" />
+    <Compile Include="GoogleGeocodeRootObject.cs" />
+    <Compile Include="GoogleGeocodingService.cs" />
+    <Compile Include="GooglePlacesRootObject.cs" />
+    <Compile Include="GooglePlacesResult.cs" />
     <Compile Include="GooglePlacesService.cs" />
-    <Compile Include="IGoogleMapsServiceV1.cs" />
+    <Compile Include="IGoogleGeocodingServiceV1.cs" />
     <Compile Include="IGooglePlacesServiceV1.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="Southwest.cs" />
+    <Compile Include="Northeast.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

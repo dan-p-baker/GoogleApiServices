@@ -1,4 +1,3 @@
-using System.Net;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
@@ -11,28 +10,12 @@ namespace GoogleApiApplication
         {
             var url = ($"https://maps.googleapis.com/maps/api/place/autocomplete/json?input={query}&types=geocode&key={GoogleCredentials.ApiKey}");
 
-            var result = GetPlacesResultsAsync(url);
+            var httpClient = new HttpClient();
 
-            return await result;
-        }
+            Task<string> responseTask = httpClient.GetStringAsync(url);
+            var response = await responseTask.ConfigureAwait(false);
 
-        private async Task<GooglePlacesRootObject> GetPlacesResultsAsync(string url)
-        {
-            using (var httpClient = new HttpClient())
-            {
-                var response = await httpClient.GetAsync(url).ConfigureAwait(false);
-
-                if (response.StatusCode == HttpStatusCode.OK)
-                {
-                    var result = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
-
-                    return JsonConvert.DeserializeObject<GooglePlacesRootObject>(result);
-                }
-                else
-                {
-                    throw new HttpRequestException();
-                }
-            }
-        }
+            return JsonConvert.DeserializeObject<GooglePlacesRootObject>(response);
+        }        
     }
 }
